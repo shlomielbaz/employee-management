@@ -31,3 +31,15 @@ code {
 .actions-container {
   width: 230px;
 }
+
+thead {
+  border-bottom: solid #000 3px;
+}
+
+tbody {
+  border: solid #000 1px;
+}
+
+header tbody {
+  border: none;
+}

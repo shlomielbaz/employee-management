@@ -14,7 +14,7 @@ namespace EM.Domain.ViewModels
         public DateTime DueDate { get; set; }
 
         [JsonProperty("assignDate")]
-        public DateTime AssignedDate { get; set; } = DateTime.Now; //.ToString(format: "yyyy-MM-ddTHH:mm:ss");
+        public DateTime AssignedDate { get; set; } // = DateTime.Now;.ToString(format: "yyyy-MM-ddTHH:mm:ss");
 
         [JsonProperty("status")]
         public TaskStatusType Status { get; set; } = TaskStatusType.NONE;

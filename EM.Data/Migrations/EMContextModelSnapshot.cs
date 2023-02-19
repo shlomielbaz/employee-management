@@ -24,6 +24,10 @@ namespace EM.Data.Migrations
                         .HasColumnType("INTEGER")
                         .HasColumnName("id");
 
+                    b.Property<long?>("ManagerId")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("manager_id");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("TEXT")

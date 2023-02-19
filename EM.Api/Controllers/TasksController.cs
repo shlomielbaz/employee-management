@@ -23,7 +23,7 @@ namespace EM.Api.Controllers
             _tasksService.Add(new Domain.Entities.Task()
             {
                 Text = model.Text,
-                //AssignedDate = model.AssignedDate,
+                AssignedDate = DateTime.Now,
                 DueDate = model.DueDate,
                 EmployeeID = model.EmployeeID,
                 Status = Domain.Enums.TaskStatusType.NEW

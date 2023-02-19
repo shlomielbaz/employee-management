@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EM.Domain.Entities
 {
+    [Table("reports")]
     public class Report: BaseEntity
     {
 

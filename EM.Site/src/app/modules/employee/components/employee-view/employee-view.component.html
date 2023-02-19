@@ -88,8 +88,8 @@
       </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let subordinate of model.subordinates">
-        <td>{{ subordinate.id }}</td>
+      <tr *ngFor="let subordinate of model.subordinates; let idx=index;">
+        <td>{{ idx + 1 }}</td>
         <td>{{ subordinate.firstName }}</td>
         <td>{{ subordinate.lastName }}</td>
         <td>{{ subordinate.positionName }}</td>
@@ -102,7 +102,7 @@
   </div>
 </main>
 
-<footer>
+<footer style="margin-bottom: 50px">
   <button routerLink="/employees" class="btn btn-outline-success">Back</button>
 </footer>
 

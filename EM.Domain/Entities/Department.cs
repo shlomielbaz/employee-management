@@ -10,5 +10,8 @@ namespace EM.Domain.Entities
         public string Name { get; set; } = string.Empty;
 
         public virtual ICollection<Employee>? Employees { get; set; }
+
+        [Column("manager_id")]
+        public long? ManagerId { get; set; }
     }
 }

@@ -1,6 +1,5 @@
 ﻿using EM.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Reflection;
 
 namespace EM.Data
@@ -38,10 +37,6 @@ namespace EM.Data
             modelBuilder.Entity<Employee>().HasOne(e => e.Manager)
                 .WithMany()
                 .HasForeignKey(m => m.ManagerId);
-
-            //modelBuilder.Entity<Employee>().HasOne(e => e.Department)
-            //   .WithMany()
-            //   .HasForeignKey(d => d.DepartmentId);
         }
     }
 }

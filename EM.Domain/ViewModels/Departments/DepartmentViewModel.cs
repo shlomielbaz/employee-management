@@ -1,6 +1,4 @@
-﻿using EM.Domain.Entities;
-using Newtonsoft.Json;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using Newtonsoft.Json;
 
 namespace EM.Domain.ViewModels
 {
@@ -12,10 +10,10 @@ namespace EM.Domain.ViewModels
         [JsonProperty("name")]
         public string Name { get; set; } = string.Empty;
 
-        //[JsonProperty("managerId")]
-        //public long? ManagerID { get; set; } = null;
+        [JsonProperty("managerId")]
+        public long? ManagerID { get; set; } = null;
 
-        //[JsonProperty("managerName")]
-        //public string? ManagerName { get; set; } = string.Empty;
+        [JsonProperty("managerName")]
+        public string? ManagerName { get; set; } = string.Empty;
     }
 }
