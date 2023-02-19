@@ -7,7 +7,7 @@ The UI's use [Angular 15](https://angular.io/)
 ### The Project Structure
 - **EM.Api** - responsible for incoming HTTP messages.
     - Controllers - contains classes which handle the RESTFul API's.
-- **EM.Data** - contains the DB context and repository and migration scripts.
+- **EM.Data** - contains the DB context, repository, migration scripts and [SQLIte database](https://www.sqlite.org/index.html) file.
 - **EM.Domain** - contains the "domain" app, which is a abstraction of the application.
   - Entities - contains classes that reflect the DB schemas. 
   - Enums - contains the application types. 
