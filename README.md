@@ -21,10 +21,19 @@ The UI's use [Angular 15](https://angular.io/)
 ### A HTTP Message Flow Schema:
 ![image](https://user-images.githubusercontent.com/426076/219906557-24e0bf22-cd7f-4173-a450-ec6c65d36e11.png)
 
-
 ### Some snap-shots from the UI
 #### **_Employee List_**:
 ![image](https://user-images.githubusercontent.com/426076/219906295-b98555e5-3d2d-4aec-8d3d-5525108d71eb.png)
 
 #### **_Employee View_**:
 ![image](https://user-images.githubusercontent.com/426076/219906486-56bb7394-ec61-4114-8490-a117e4faebbb.png)
+
+## Build the project's
+- Server Side - build the project by Visual Studio or from EM.Api project run `dotnet build` CLI command.
+- Client Side - from EM.Site run `npm install`
+
+## Running the project's
+- Using CLI's - from EM.Api project run `dotnet run`, from EM.Site run `npm start`
+- Using Visual Studio - set multiple startup project's:
+![image](https://user-images.githubusercontent.com/426076/219932184-51cc35dd-2620-4630-af96-9de35971afab.png)
+
