@@ -30,7 +30,7 @@ The UI's use [Angular 15](https://angular.io/)
 
 ## Some snap-shots from the UI
 #### **_Employee List_**:
-![image](https://user-images.githubusercontent.com/426076/219906295-b98555e5-3d2d-4aec-8d3d-5525108d71eb.png)
+![image](https://user-images.githubusercontent.com/426076/219934629-1f634e46-533e-4343-a3fd-3c169ef202e1.png)
 
 #### **_Employee View_**:
 ![image](https://user-images.githubusercontent.com/426076/219906486-56bb7394-ec61-4114-8490-a117e4faebbb.png)
