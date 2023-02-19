@@ -14,7 +14,7 @@
 - **EM.Services** - represent the transformation tier where incoming messages represented by ViewModels transform to Entities and vice versa.
 - **EM.Site** - contains the Angular (client-side) project
 
-### Project Schema:
+### The Project Flow Schema:
 ![image](https://user-images.githubusercontent.com/426076/219906557-24e0bf22-cd7f-4173-a450-ec6c65d36e11.png)
 
 
