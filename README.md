@@ -1,6 +1,6 @@
 # Employee Management
 
-The Project Structure
+### The Project Structure
 - **EM.Api** - responsible for incoming HTTP messages.
     - Controllers - contains classes that handle the RESTFul API's.
 - **EM.Data** - contains the DB context and repository.
@@ -14,7 +14,11 @@ The Project Structure
 - **EM.Services** - represent the transformation tier where incoming messages represented by ViewModels transform to Entities and vice versa.
 - **EM.Site** - contains the Angular (client-side) project
 
-## Some snap-shots from the UI
+### Project Schema:
+![image](https://user-images.githubusercontent.com/426076/219906557-24e0bf22-cd7f-4173-a450-ec6c65d36e11.png)
+
+
+### Some snap-shots from the UI
 Employee List
 ![image](https://user-images.githubusercontent.com/426076/219906295-b98555e5-3d2d-4aec-8d3d-5525108d71eb.png)
 
