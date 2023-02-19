@@ -22,6 +22,7 @@ The UI's use [Angular 15](https://angular.io/)
 ![image](https://user-images.githubusercontent.com/426076/219906557-24e0bf22-cd7f-4173-a450-ec6c65d36e11.png)
 
 ## Build the project's
+- From EM.Data project run `update-database` migration command
 - Server Side - build the project by Visual Studio or from EM.Api project run `dotnet build` CLI command.
 - Client Side - from EM.Site run `npm install`
 
