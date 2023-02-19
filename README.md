@@ -35,5 +35,5 @@ The UI's use [Angular 15](https://angular.io/)
 ## Running the project's
 - Using CLI's - from EM.Api project run `dotnet run`, from EM.Site run `npm start`
 - Using Visual Studio - set multiple startup project's:
-![image](https://user-images.githubusercontent.com/426076/219932184-51cc35dd-2620-4630-af96-9de35971afab.png)
+![image](https://user-images.githubusercontent.com/426076/219932327-766f3317-a960-4e4d-b215-75dff2eb8940.png)
 
