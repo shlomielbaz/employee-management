@@ -13,3 +13,10 @@ The Project Structure
   - ViewModels - contains classes that represent data transfer object and views reflection.
 - **EM.Services** - represent the transformation tier where incoming messages represented by ViewModels transform to Entities and vice versa.
 - **EM.Site** - contains the Angular (client-side) project
+
+## Some snap-shots from the UI
+Employee List
+![image](https://user-images.githubusercontent.com/426076/219906295-b98555e5-3d2d-4aec-8d3d-5525108d71eb.png)
+
+Employee View
+![image](https://user-images.githubusercontent.com/426076/219906486-56bb7394-ec61-4114-8490-a117e4faebbb.png)
