@@ -1,6 +1,6 @@
 # Employee Management
 The _Employee Management_ is a simple CRUD operations application, 
-it utilizes the [three-tier architecture](https://www.ibm.com/topics/three-tier-architecture) which emphasizes the separation between UI and business tie, \
+it utilizes the [three-tier architecture](https://www.ibm.com/topics/three-tier-architecture) which emphasizes the separation between UI and business tiers, \
 The server side use a .NET core built-in dependency injection mechanism, entityframework, repository pattern, unit-of-work pattern and more... \
 The UI's use [Angular 15](https://angular.io/)
 
