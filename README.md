@@ -33,4 +33,4 @@ The UI's use [Angular 15](https://angular.io/)
 ![image](https://user-images.githubusercontent.com/426076/219934629-1f634e46-533e-4343-a3fd-3c169ef202e1.png)
 
 #### **_Employee View_**:
-![image](https://user-images.githubusercontent.com/426076/219906486-56bb7394-ec61-4114-8490-a117e4faebbb.png)
+![image](https://user-images.githubusercontent.com/426076/219935197-bcf76457-a93f-472d-b363-d5353c8abec0.png)
