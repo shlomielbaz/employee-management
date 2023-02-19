@@ -1,4 +1,8 @@
 # Employee Management
+The _Employee Management_ is a simple CRUD operations application, 
+it utilizes the [three-tier architecture](https://www.ibm.com/topics/three-tier-architecture) which emphasizes the separation between UI and business tie, \
+The server side use a .NET core built-in dependency injection mechanism, entityframework, repository pattern, unit-of-work pattern, \
+The UI's use [Angular 15](https://angular.io/)
 
 ### The Project Structure
 - **EM.Api** - responsible for incoming HTTP messages.
@@ -11,7 +15,7 @@
   - Helpers - contains helpers classes.
   - Interfaces - contains interfaces that represent the application abstraction. 
   - ViewModels - contains classes that represent data transfer object with UI views reflection.
-- **EM.Services** - represent the mediator between the message tier and the business tier, and transform incoming messages from/to ViewModel's.
+- **EM.Services** - represent the mediator between the messaging tier and the business tier, and transform incoming messages from/to ViewModel's.
 - **EM.Site** - contains the Angular (client-side) project
 
 ### A HTTP Message Flow Schema:
@@ -19,8 +23,8 @@
 
 
 ### Some snap-shots from the UI
-Employee List
+#### **_Employee List_**:
 ![image](https://user-images.githubusercontent.com/426076/219906295-b98555e5-3d2d-4aec-8d3d-5525108d71eb.png)
 
-Employee View
+#### **_Employee View_**:
 ![image](https://user-images.githubusercontent.com/426076/219906486-56bb7394-ec61-4114-8490-a117e4faebbb.png)
