@@ -32,6 +32,6 @@ namespace EM.Domain.ViewModels
         public List<TaskViewModel>? Tasks { get; set; } = null;
 
         [JsonProperty("managerId")]
-        public long? ManagerID { get; set; }
+        public long? ManagerId { get; set; }
     }
 }

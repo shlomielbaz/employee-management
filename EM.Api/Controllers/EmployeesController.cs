@@ -39,7 +39,8 @@ namespace EM.Api.Controllers
                 LastName = e.LastName,
                 Position = e.Position,
                 PositionName = EnumHelper<PositionType>.GetDisplayValue(e.Position),
-                DepartmentId = e.DepartmentId.GetValueOrDefault()
+                DepartmentId = e.DepartmentId.GetValueOrDefault(),
+                ManagerId = e.ManagerId,
             }).ToList();
 
 

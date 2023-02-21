@@ -2,7 +2,7 @@
   <h2>Edit Employee Form</h2>
 </header>
 <main>
-  <div class="container">
+  <div class="container" *ngIf="model">
     <form (ngSubmit)="onSubmit()" #editForm="ngForm" [hidden]="submitted">
       <input type="hidden" name="id" value="{{model.id}}">
 
@@ -31,16 +31,16 @@
       <div class="mb-3">
         <label for="department">Department</label>
         <select class="form-select" aria-label="Default select example" id="department"
-                [(ngModel)]="model.departmentId" name="department">
+                [(ngModel)]="model.departmentId" name="departmentId">
           <option *ngFor="let department of departments" [value]="department.id">{{department.name}}</option>
         </select>
       </div>
 
       <div class="mb-3">
-        <label for="department">Manager</label>
-        <select class="form-select" aria-label="Default select example" id="employees"
-                [(ngModel)]="model.managerId" name="department">
-          <option *ngFor="let employee of employees" [value]="employee.id">{{employee.firstName}} {{employee.lastName}}</option>
+        <label for="managerId">Manager</label>
+        <select class="form-select" aria-label="Default select example" id="managerId"
+                [(ngModel)]="model.managerId" name="managerId">
+          <option *ngFor="let employee of employees" [value]="employee.id" [selected]="employee.id == model.managerId">{{employee.firstName}} {{employee.lastName}}</option>
         </select>
       </div>
 
@@ -50,8 +50,8 @@
         <button type="submit" class="btn btn-outline-primary" [disabled]="!editForm.form.valid">Submit</button>
       </div>
     </form>
-
   </div>
+  <div *ngIf="!model">Loadin</div>
 </main>
 <footer [hidden]="!submitted">
   <button routerLink="/employees">Back</button>

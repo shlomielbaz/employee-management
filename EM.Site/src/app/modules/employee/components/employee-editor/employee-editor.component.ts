@@ -13,7 +13,7 @@ import IDepartment from "../../../department/code/department.interface";
 })
 export class EmployeeEditorComponent implements OnInit {
   // @ts-ignore
-  model: IEmployee = new Employee();
+  model: IEmployee;
   employees: IEmployee[] | undefined;
   departments: IDepartment[] = []
   submitted: boolean = false;
@@ -47,6 +47,8 @@ export class EmployeeEditorComponent implements OnInit {
     }
     else {
       this.employeesService.getEmployees().subscribe((employees)=> {
+        // @ts-ignore
+        this.model = new Employee();
         // @ts-ignore
         this.employees = employees;
       });

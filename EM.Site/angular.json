@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "EM.Web": {
+    "EM.Site": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -28,6 +28,9 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -69,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "EM.Web:build:production"
+              "browserTarget": "EM.Site:build:production"
             },
             "development": {
-              "browserTarget": "EM.Web:build:development",
+              "browserTarget": "EM.Site:build:development",
               "proxyConfig": "proxy.conf.js"
             }
           },
@@ -81,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "EM.Web:build"
+            "browserTarget": "EM.Site:build"
           }
         },
         "test": {
@@ -129,7 +132,7 @@
       }
     }
   },
-  "defaultProject": "EM.Web",
+  "defaultProject": "EM.Site",
   "cli": {
     "analytics": false
   }
