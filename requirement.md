@@ -1,4 +1,4 @@
-# Project description:
+# Project Requirements:
 Create a web application that represents organization structure.
 
 ## Specifications:
