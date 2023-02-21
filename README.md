@@ -19,7 +19,7 @@ The UI's use [Angular 15](https://angular.io/)
 - **EM.Site** - contains the Angular (client-side) project
 
 ### A HTTP Message Flow Schema:
-![image](https://user-images.githubusercontent.com/426076/219906557-24e0bf22-cd7f-4173-a450-ec6c65d36e11.png)
+![app-diagram](https://user-images.githubusercontent.com/426076/220337080-ddf6706e-fbb2-4ce1-aede-105d4b973a5e.png)
 
 ## Build the project's
 - From EM.Data project run `update-database` migration command
