@@ -17,7 +17,7 @@ The project requirements can be found in [requirments.md](https://github.com/shl
   - _Helpers_ - contains helpers classes.
   - _Interfaces_ - contains interfaces that represent the application abstraction. 
   - _ViewModels_ contains classes representing data transfer objects with UI views reflection.
-- **EM.Services** - represent the mediator between the messaging and business tiers, and transform incoming messages from/to ViewModel's.
+- **EM.Services** - represent the transformation tier which is a mediator between the messaging and business tiers, and transforms incoming messages from/to ViewModel's.
 - **EM.Site** - contains the Angular (client-side) project
 
 ### A HTTP Message Flow Schema:
